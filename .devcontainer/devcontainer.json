@@ -1,0 +1,16 @@
+{
+    "name": "my-api-keiba",
+    "dockerComposeFile": [
+        "../compose.yml",
+        "compose.override.yml"
+    ],
+    "service": "my-api-keiba",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}

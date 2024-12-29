@@ -1,0 +1,8 @@
+name: my-api-keiba
+
+services:
+  my-api-keiba:
+    build:
+      context: .
+    ports:
+      - "3000:3000"

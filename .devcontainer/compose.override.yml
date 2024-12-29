@@ -1,0 +1,7 @@
+services:
+  my-api-keiba:
+    build:
+      target: base
+    volumes:
+      - .:/workspace:cached
+    command: sleep infinity
