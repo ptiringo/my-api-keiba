@@ -3,15 +3,18 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "vitest"
   },
   "dependencies": {
     "@hono/node-server": "^1.13.7",
     "hono": "^4.6.15"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.14",
     "@types/node": "^20.11.17",
     "tsx": "^4.7.1",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "vitest": "^3.0.5"
   }
 }
